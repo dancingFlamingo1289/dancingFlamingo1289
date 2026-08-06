@@ -1,4 +1,3 @@
-Voici directement le contenu complet au format brut que tu peux copier-coller dans ton fichier README.md :
 <div align="center">
 
 ```ascii
