@@ -1,10 +1,8 @@
 <svg viewBox="0 0 850 160" xmlns="http://www.w3.org/2000/svg">
   <style>
-    .ascii { 
-      font-family: 'Courier New', Courier, monospace; 
-      font-size: 13px; 
-      fill: #7aa2f7; 
-      letter-spacing: 0.5px;
+    .pixel {
+      fill: #7aa2f7;
+      filter: drop-shadow(0 0 8px rgba(122, 162, 247, 0.4));
     }
     .subtitle {
        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
@@ -12,17 +10,100 @@
        fill: #bb9af7; 
        font-weight: 600;
        letter-spacing: 0.5px;
+       filter: drop-shadow(0 0 6px rgba(187, 154, 247, 0.4));
+    }
+    .vector-star {
+      fill: none;
+      stroke-width: 2.2;
+      stroke-linejoin: round;
+      stroke-linecap: round;
+      /* Couleur unifiée : bleu de l'ASCII */
+      stroke: #7aa2f7;
+      /* Lueur bleue néon pour les étoiles */
+      filter: drop-shadow(0 0 8px rgba(122, 162, 247, 0.7));
+      animation: blink 1.5s infinite ease-in-out;
+    }
+    @keyframes blink {
+      0%, 100% { opacity: 0.3; transform-origin: center; }
+      50% { opacity: 1; transform-origin: center; }
     }
   </style>
-  
-  <!-- <rect width="100%" height="100%" fill="#1a1b26" rx="15"/> -->
 
-  <text xml:space="preserve" class="ascii">
-    <tspan x="15" y="28">███████╗██╗     ██╗ █████╗ ███████╗    ██╗  ██╗ █████╗ ███████╗███████╗ █████╗ ███████╗</tspan>
-    <tspan x="15" y="46">██╔════╝██║     ██║██╔══██╗██╔════╝    ██║ ██╔╝██╔══██╗██╔════╝██╔════╝██╔══██╗██╔════╝</tspan>
-    <tspan x="15" y="64">█████╗  ██║     ██║███████║███████╗    █████╔╝ ███████║███████╗███████╗███████║███████╗</tspan>
-    <tspan x="15" y="82">██╔══╝  ██║     ██║██╔══██║╚════██║    ██╔═██╗ ██╔══██║╚════██║╚════██║██╔══██║╚════██║</tspan>
-    <tspan x="15" y="100">███████╗███████╗██║██║  ██║███████║    ██║  ██╗██║  ██║███████║███████║██║  ██║███████║</tspan>
-  </text>
+  <g transform="translate(110, 42)">
+    <polygon class="vector-star" points="16,0 20.5,10.5 32,12 23.5,20 25.5,31.5 16,26 6.5,31.5 8.5,20 0,12 11.5,10.5" />
+  </g>
+  <g transform="translate(705, 42)">
+    <polygon class="vector-star" points="16,0 20.5,10.5 32,12 23.5,20 25.5,31.5 16,26 6.5,31.5 8.5,20 0,12 11.5,10.5" />
+  </g>
+
+  <g class="pixel" transform="translate(162.5, 20)">
+    <!-- E -->
+    <rect x="0" y="0" width="35" height="8"/>
+    <rect x="0" y="8" width="8" height="64"/>
+    <rect x="0" y="32" width="28" height="8"/>
+    <rect x="0" y="64" width="35" height="8"/>
+
+    <!-- L -->
+    <rect x="43" y="0" width="8" height="72"/>
+    <rect x="43" y="64" width="32" height="8"/>
+
+    <!-- I -->
+    <rect x="83" y="0" width="8" height="72"/>
+
+    <!-- A -->
+    <rect x="123" y="0" width="32" height="8"/>
+    <rect x="123" y="8" width="8" height="64"/>
+    <rect x="155" y="8" width="8" height="64"/>
+    <rect x="123" y="32" width="40" height="8"/>
+
+    <!-- S -->
+    <rect x="171" y="0" width="35" height="8"/>
+    <rect x="171" y="8" width="8" height="28"/>
+    <rect x="171" y="32" width="35" height="8"/>
+    <rect x="198" y="40" width="8" height="24"/>
+    <rect x="171" y="64" width="35" height="8"/>
+
+    <!-- K -->
+    <rect x="259" y="0" width="8" height="72"/>
+    <rect x="283" y="0" width="8" height="28"/>
+    <rect x="275" y="24" width="8" height="16"/>
+    <rect x="267" y="32" width="8" height="8"/>
+    <rect x="283" y="40" width="8" height="32"/>
+
+    <!-- A -->
+    <rect x="303" y="0" width="32" height="8"/>
+    <rect x="303" y="8" width="8" height="64"/>
+    <rect x="335" y="8" width="8" height="64"/>
+    <rect x="303" y="32" width="40" height="8"/>
+
+    <!-- S -->
+    <rect x="351" y="0" width="35" height="8"/>
+    <rect x="351" y="8" width="8" height="28"/>
+    <rect x="351" y="32" width="35" height="8"/>
+    <rect x="378" y="40" width="8" height="24"/>
+    <rect x="351" y="64" width="35" height="8"/>
+
+    <!-- S -->
+    <rect x="394" y="0" width="35" height="8"/>
+    <rect x="394" y="8" width="8" height="28"/>
+    <rect x="394" y="32" width="35" height="8"/>
+    <rect x="421" y="40" width="8" height="24"/>
+    <rect x="394" y="64" width="35" height="8"/>
+
+    <!-- A -->
+    <rect x="442" y="0" width="32" height="8"/>
+    <rect x="442" y="8" width="8" height="64"/>
+    <rect x="474" y="8" width="8" height="64"/>
+    <rect x="442" y="32" width="40" height="8"/>
+
+    <!-- S -->
+    <rect x="490" y="0" width="35" height="8"/>
+    <rect x="490" y="8" width="8" height="28"/>
+    <rect x="490" y="32" width="35" height="8"/>
+    <rect x="517" y="40" width="8" height="24"/>
+    <rect x="490" y="64" width="35" height="8"/>
+  </g>
+
   <text x="425" y="138" text-anchor="middle" class="subtitle">ELIAS KASSAS — SOFTWARE ENGINEERING STUDENT @ POLYTECHNIQUE MONTRÉAL 🇨🇦</text>
 </svg>
+
