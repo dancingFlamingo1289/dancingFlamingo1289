@@ -1,41 +1,42 @@
+Voici directement le contenu complet au format brut que tu peux copier-coller dans ton fichier README.md :
 <div align="center">
 
-# Hi 👋, I'm Elias
-### Software Engineering Student @ Polytechnique Montréal 🇨🇦
+```ascii
+  ___ _ _             _  __                  
+ | __| (_)__ _ ______| |/ /__ ___ ___ __ _ ___ 
+ | _|| | / _` (_-<_-< ' </_ (_-</ _/ _` (_-< 
+ |_| |_|_\__,_/__/__/_|\_\___/__/\__\__,_/__/ 
 
-[![Profile Views](https://komarev.com/ghpvc/?username=dancingflamingo1289&label=Views&color=blue&style=flat-square)](https://github.com/dancingflamingo1289)
-[![Internship Status](https://img.shields.io/badge/Status-Looking%20for%20Fall%202026%20Internship-blueviolet?style=flat-square&logo=replit)](mailto:elias.kassas@etud.polymtl.ca)
+⚡ Software Engineering Student @ Polytechnique Montréal 🇨🇦
+Profile Views
 
+Internship Status
 </div>
+🖥️ $ \text{cat } \sim/\text{profile.txt}$
+[INFO] Name        : Elias Kassas
+[INFO] Discipline  : Software Engineering (B.Eng.)
+[INFO] Focus       : Full-Stack Architecture, UI/UX Systems & Embedded Logic
+[INFO] Achievement : 2nd Place @ StarHack 2026 (CanN'Go Smart Mobility Project)
+[INFO] Objective   : Secure an impactful Fall 2026 engineering internship.
 
----
-
-### 💻 `whoami`
-
-```bash
-$ elias --profile
-> Software engineering student passionate about full-stack development, 
-  UI/UX design, and embedded systems.
-> 🏆 2nd place at StarHack 2026 (CanN'Go project).
-```
-
-🛠️ tech-stack.config
-{
-  "Languages": ["Java", "Python", "JavaScript", "TypeScript", "C", "C++"],
-  "Web & Frameworks": ["Angular", "NestJS", "Node.js", "React", "Qt"],
-  "Databases & Tools": ["MongoDB", "MySQL", "Git", "Docker", "Linux", "Figma", "Arduino"]
-}
-
-📊 github.stats
+⚙️ $ \text{./load_modules.sh}$
+| Category | Components |
+|---|---|
+| Languages | Java • Python • TypeScript • JavaScript • C • C++ |
+| Architectures | Angular • NestJS • Node.js • React • Qt |
+| Ecosystem | MongoDB • MySQL • Git • Docker • Linux • Figma • Arduino |
+📈 $ \text{tail } -f \text{ /var/log/github.metrics}$
 <p align="center">
-<img src="https://github-readme-stats.vercel.app/api/top-langs?username=dancingflamingo1289&show_icons=true&locale=en&layout=compact&theme=nord" alt="Top Langs" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs?username=dancingflamingo1289&show_icons=true&locale=en&layout=compact&theme=tokyonight&border_radius=12" alt="Top Languages" />
 </p>
 <p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=dancingflamingo1289&show_icons=true&locale=en&theme=nord" alt="GitHub Stats" />
+<img src="https://github-readme-stats.vercel.app/api?username=dancingflamingo1289&show_icons=true&locale=en&theme=tokyonight&border_radius=12" alt="GitHub Stats" />
 </p>
 <p align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=dancingflamingo1289&theme=nord" alt="GitHub Streak" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=dancingflamingo1289&theme=tokyonight&border_radius=12" alt="GitHub Streak" />
 </p>
 <div align="center">
-<i>Let's build something amazing together 🚀</i>
+<code>$ echo "Let's build something exceptional together."</code>
+
+<sub>⚡ Powered by curiosity and clean code.</sub>
 </div>
