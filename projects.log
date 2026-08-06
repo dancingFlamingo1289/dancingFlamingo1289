@@ -1,1 +1,11 @@
+[2026-03] STATUS: SUCCESS | CODE: 200 | EVENT: CanN-Go (StarHack 2026 — 2nd Place)
+- Description: Smart mobility project combining embedded control logic and a high-precision user interface.
+- Architecture: Embedded Systems, Custom UI/UX, Rapid Prototyping.
 
+[2026-04] STATUS: SUCCESS | CODE: 200 | EVENT: Tactical RPG Engine
+- Description: Full-stack tactical game architecture built with an Angular frontend and NestJS backend.
+- Architecture: Angular, NestJS, TypeScript, State Management.
+
+[2025-12] STATUS: SUCCESS | CODE: 200 | EVENT: "Questions pour les pas bons"
+- Description: Collaborative Java Swing interactive quiz application featuring customized UI workflows.
+- Architecture: Java, JavaSwing, Local Object Logic.
